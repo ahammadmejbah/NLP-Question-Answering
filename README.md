@@ -11,8 +11,6 @@
 <li><a href="https://arxiv.org/pdf/1405.4053v2.pdf"> DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter</a></li>
 <li><a href="https://arxiv.org/pdf/1910.01108v4.pdf"> Distributed Representations of Sentences and Documents</a><li>
 
-
-
 <li><a href ="https://arxiv.org/pdf/1611.01603v6.pdf">Bidirectional Attention Flow for Machine Comprehension</a></li> 
 <li><a href ="https://arxiv.org/pdf/1906.08237v2.pdf">XLNet: Generalized Autoregressive Pretraining for Language Understanding</a></li>
 <li><a href ="https://arxiv.org/pdf/1904.00962v5.pdf">Large Batch Optimization for Deep Learning: Training BERT in 76 minutes</a></li>
@@ -23,20 +21,11 @@
 <li><a href ="https://arxiv.org/pdf/2003.10555v1.pdf">ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators</a></li>
 <li><a href ="https://arxiv.org/pdf/2004.04906v3.pdf">Dense Passage Retrieval for Open-Domain Question Answering</a></li>
 <li><a href ="https://arxiv.org/pdf/1804.09541v1.pdf">QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension</a></li>
-<li><a href ="">Habitat: A Platform for Embodied AI Research</a></li>
+<li><a href ="https://arxiv.org/pdf/1904.01201v2.pdf">Habitat: A Platform for Embodied AI Research</a></li>
 <li><a href ="https://arxiv.org/pdf/2001.04451v2.pdf">Reformer: The Efficient Transformer</a></li>
 <li><a href ="https://arxiv.org/pdf/1806.03822v1.pdf">Know What You Don't Know: Unanswerable Questions for SQuAD</a></li>
-<li><a href ="">Dynamic Memory Networks for Visual and Textual Question Answering</a></li>
+<li><a href ="https://arxiv.org/pdf/1603.01417v1.pdf">Dynamic Memory Networks for Visual and Textual Question Answering</a></li>
 <li><a href ="https://arxiv.org/pdf/1611.09268v3.pdf">MS MARCO: A Human Generated MAchine Reading COmprehension Dataset</a></li>
-
-
-
-<li><a href ="">
-
-
-
-
-
 
 
 
