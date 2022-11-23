@@ -84,21 +84,126 @@
 <b><code>Abstract:</code></b> Many machine learning algorithms require the input to be represented as a fixed-length feature vector. When it comes to texts, one of the most common fixed-length features is bag-of-words. Despite their popularity, bag-of-words features have two major weaknesses: they lose the order- ing of the words and they also ignore semantics of the words. For example, “powerful,” “strong” and “Paris” are equally distant. In this paper, we propose Paragraph Vector, an unsupervised algo- rithm that learns fixed-length feature representa- tions from variable-length pieces of texts, such as sentences, paragraphs, and documents. Our algo- rithm represents each document by a dense vec- tor which is trained to predict words in the doc- ument. Its construction gives our algorithm the potential to overcome the weaknesses of bag-of- words models. Empirical results show that Para- graph Vectors outperform bag-of-words models as well as other techniques for text representa- tions. Finally, we achieve new state-of-the-art re- sults on several text classification and sentiment analysis tasks.   
    
 <li><a href ="https://arxiv.org/pdf/1611.01603v6.pdf">Bidirectional Attention Flow for Machine Comprehension</a></li> 
+
+ <img width="1004" alt="image" src="https://user-images.githubusercontent.com/56669333/203583739-d5b29f71-da18-4d82-96fb-b09ae3f88403.png">
+  
+   
+<b><code>Abstract:</code></b>Machine comprehension (MC), answering a query about a given context para- graph, requires modeling complex interactions between the context and the query. Recently, attention mechanisms have been successfully extended to MC. Typ- ically these methods use attention to focus on a small portion of the con- text and summarize it with a fixed-size vector, couple attentions temporally, and/or often form a uni-directional attention. In this paper we introduce the Bi-Directional Attention Flow (BIDAF) network, a multi-stage hierarchical pro- cess that represents the context at different levels of granularity and uses bi- directional attention flow mechanism to obtain a query-aware context represen- tation without early summarization. Our experimental evaluations show that our model achieves the state-of-the-art results in Stanford Question Answering Dataset (SQuAD) and CNN/DailyMail cloze test.   
+   
+   
 <li><a href ="https://arxiv.org/pdf/1906.08237v2.pdf">XLNet: Generalized Autoregressive Pretraining for Language Understanding</a></li>
+   
+<img width="992" alt="image" src="https://user-images.githubusercontent.com/56669333/203583942-ac994032-70dd-4b6a-901b-f7a96e7958fd.png">
+   
+   
+   
+<b><code>Abstract:</code></b> With the capability of modeling bidirectional contexts, denoising autoencoding based pretraining like BERT achieves better performance than pretraining ap- proaches based on autoregressive language modeling. However, relying on corrupt- ing the input with masks, BERT neglects dependency between the masked positions and suffers from a pretrain-finetune discrepancy. In light of these pros and cons, we propose XLNet, a generalized autoregressive pretraining method that (1) enables learning bidirectional contexts by maximizing the expected likelihood over all permutations of the factorization order and (2) overcomes the limitations of BERT thanks to its autoregressive formulation. Furthermore, XLNet integrates ideas from Transformer-XL, the state-of-the-art autoregressive model, into pretraining. Empirically, under comparable experiment settings, XLNet outperforms BERT on 20 tasks, often by a large margin, including question answering, natural language inference, sentiment analysis, and document ranking   
+   
+   
+   
 <li><a href ="https://arxiv.org/pdf/1904.00962v5.pdf">Large Batch Optimization for Deep Learning: Training BERT in 76 minutes</a></li>
+   
+<img width="1217" alt="image" src="https://user-images.githubusercontent.com/56669333/203584176-cda957ad-c2a7-489d-b56a-3aacd0a036a9.png">
+   
+   
+<b><code>Abstract:</code></b>Training large deep neural networks on massive datasets is computationally very challenging. There has been recent surge in interest in using large batch stochastic optimization methods to tackle this issue. The most prominent algorithm in this line of research is LARS, which by employing layerwise adaptive learning rates trains RESNET on ImageNet in a few minutes. However, LARS performs poorly for attention models like BERT, indicating that its performance gains are not consistent across tasks. In this paper, we first study a principled layerwise adaptation strategy to accelerate training of deep neural networks using large mini-batches. Using this strategy, we develop a new layerwise adaptive large batch optimization technique called LAMB; we then provide convergence analysis of LAMB as well as LARS, showing convergence to a stationary point in general nonconvex settings. Our empirical results demonstrate the superior performance of LAMB across various tasks such as BERT and RESNET-50 training with very little hyperparameter tuning. In particular, for BERT training, our optimizer enables use of very large batch sizes of 32868 without any degradation of performance. By increasing the batch size to the memory limit of a TPUv3 Pod, BERT training time can be reduced from 3 days to just 76 minutes (Table 1). The LAMB implementation is available online  
+   
 <li><a href ="https://arxiv.org/pdf/1502.05698v10.pdf">Towards AI-Complete Question Answering: A Set of Prerequisite Toy Tasks</a></li>
+   
+   
+<img width="1081" alt="image" src="https://user-images.githubusercontent.com/56669333/203584456-bb0759a9-2962-416f-b752-539cec294c9e.png">
+   
+ 
+<b><code>Abstract:</code></b>One long-term goal of machine learning research is to produce methods that are applicable to reasoning and natural language, in particular building an intelligent dialogue agent. To measure progress towards that goal, we argue for the use- fulness of a set of proxy tasks that evaluate reading comprehension via question answering. Our tasks measure understanding in several ways: whether a system is able to answer questions via chaining facts, simple induction, deduction and many more. The tasks are designed to be prerequisites for any system that aims to be capable of conversing with a human. We believe many existing learning systems can currently not solve them, and hence our aim is to classify these tasks into skill sets, so that researchers can identify (and then rectify) the failings of their systems. We also extend and improve the recently introduced Memory Networks model, and show it is able to solve some, but not all, of the tasks.  
+   
+   
 <li><a href ="https://arxiv.org/pdf/1606.05250v3.pdf">SQuAD: 100,000+ Questions for Machine Comprehension of Text</a></li>
+   
+<img width="1175" alt="image" src="https://user-images.githubusercontent.com/56669333/203584677-5d0909be-d9ae-492f-b829-e84a807dc7d6.png">
+   
+   
+<b><code>Abstract:</code></b> We present the Stanford Question Answer- ing Dataset (SQuAD), a new reading compre- hension dataset consisting of 100,000+ ques- tions posed by crowdworkers on a set of Wikipedia articles, where the answer to each question is a segment of text from the cor- responding reading passage. We analyze the dataset to understand the types of reason- ing required to answer the questions, lean- ing heavily on dependency and constituency trees. We build a strong logistic regression model, which achieves an F1 score of 51.0%, a significant improvement over a simple base- line (20%). However, human performance (86.8%) is much higher, indicating that the dataset presents a good challenge problem for future research.   
+   
+   
 <li><a href ="https://arxiv.org/pdf/1706.01427v1.pdf">A simple neural network module for relational reasoning</a></li>
+   
+<img width="1084" alt="image" src="https://user-images.githubusercontent.com/56669333/203584895-f9d94743-a2b9-45de-8b71-19a3af956b37.png">
+   
+<b><code>Abstract:</code></b>Relational reasoning is a central component of generally intelligent behavior, but has proven difficult for neural networks to learn. In this paper we describe how to use Relation Networks (RNs) as a simple plug-and-play module to solve problems that fundamentally hinge on relational reasoning. We tested RN-augmented networks on three tasks: visual question answering using a challenging dataset called CLEVR, on which we achieve state-of-the-art, super-human performance; text-based question answering using the bAbI suite of tasks; and complex reasoning about dynamic physical systems. Then, using a curated dataset called Sort-of-CLEVR we show
+that powerful convolutional networks do not have a general capacity to solve relational questions, but can gain this capacity when augmented with RNs. Our work shows how a deep learning architecture equipped with an RN module can implicitly discover and learn to reason about entities and their relations.
+   
 <li><a href ="https://arxiv.org/pdf/1901.08746v4.pdf">BioBERT: a pre-trained biomedical language representation model for biomedical text mining</a></li>
+   
+<img width="1136" alt="image" src="https://user-images.githubusercontent.com/56669333/203585221-5e679462-88b8-48b3-98a7-eb5a91ad2643.png">
+   
+   
+<b><code>Abstract:</code></b>Motivation: Biomedical text mining is becoming increasingly important as the number of biomedical documents rapidly grows. With the progress in natural language processing (NLP), extracting valuable information from bio- medical literature has gained popularity among researchers, and deep learning has boosted the development of ef- fective biomedical text mining models. However, directly applying the advancements in NLP to biomedical text min- ing often yields unsatisfactory results due to a word distribution shift from general domain corpora to biomedical corpora. In this article, we investigate how the recently introduced pre-trained language model BERT can be adapted for biomedical corpora.   
+   
 <li><a href ="https://arxiv.org/pdf/2003.10555v1.pdf">ELECTRA: Pre-training Text Encoders as Discriminators Rather Than Generators</a></li>
+   
+   
+<img width="1012" alt="image" src="https://user-images.githubusercontent.com/56669333/203585534-b887306b-c3a3-48ae-99b5-15304b5f3214.png">
+   
+   
+<b><code>Abstract:</code></b>Masked language modeling (MLM) pre-training methods such as BERT corrupt the input by replacing some tokens with [MASK] and then train a model to re- construct the original tokens. While they produce good results when transferred to downstream NLP tasks, they generally require large amounts of compute to be effective. As an alternative, we propose a more sample-efficient pre-training task called replaced token detection. Instead of masking the input, our approach cor- rupts it by replacing some tokens with plausible alternatives sampled from a small generator network. Then, instead of training a model that predicts the original identities of the corrupted tokens, we train a discriminative model that predicts whether each token in the corrupted input was replaced by a generator sample or not. Thorough experiments demonstrate this new pre-training task is more ef- ficient than MLM because the task is defined over all input tokens rather than just the small subset that was masked out. As a result, the contextual representa- tions learned by our approach substantially outperform the ones learned by BERT given the same model size, data, and compute. The gains are particularly strong for small models; for example, we train a model on one GPU for 4 days that outperforms GPT (trained using 30x more compute) on the GLUE natural lan- guage understanding benchmark. Our approach also works well at scale, where it performs comparably to RoBERTa and XLNet while using less than 1/4 of their compute and outperforms them when using the same amount of compute.
+   
+   
 <li><a href ="https://arxiv.org/pdf/2004.04906v3.pdf">Dense Passage Retrieval for Open-Domain Question Answering</a></li>
+
+<img width="1201" alt="image" src="https://user-images.githubusercontent.com/56669333/203585720-b6c9db1c-573d-42a7-a2c7-ce78cef00d2f.png">
+   
+   
+<b><code>Abstract:</code></b>Open-domain question answering relies on ef- ficient passage retrieval to select candidate contexts, where traditional sparse vector space models, such as TF-IDF or BM25, are the de facto method. In this work, we show that retrieval can be practically implemented us- ing dense representations alone, where em- beddings are learned from a small number of questions and passages by a simple dual- encoder framework. When evaluated on a wide range of open-domain QA datasets, our dense retriever outperforms a strong Lucene- BM25 system greatly by 9%-19% absolute in terms of top-20 passage retrieval accuracy, and helps our end-to-end QA system establish new state-of-the-art on multiple open-domain QA benchmarks.   
+   
 <li><a href ="https://arxiv.org/pdf/1804.09541v1.pdf">QANet: Combining Local Convolution with Global Self-Attention for Reading Comprehension</a></li>
+   
+<img width="1063" alt="image" src="https://user-images.githubusercontent.com/56669333/203585947-dbd73175-a15f-42f7-83e9-f9a30ad151e8.png">
+   
+   
+   
+<b><code>Abstract:</code></b>Current end-to-end machine reading and question answering (Q&A) models are primarily based on recurrent neural networks (RNNs) with attention. Despite their success, these models are often slow for both training and inference due to the se- quential nature of RNNs. We propose a new Q&A architecture called QANet, which does not require recurrent networks: Its encoder consists exclusively of convolution and self-attention, where convolution models local interactions and self-attention models global interactions. On the SQuAD dataset, our model is 3x to 13x faster in training and 4x to 9x faster in inference, while achieving equiva- lent accuracy to recurrent models. The speed-up gain allows us to train the model with much more data. We hence combine our model with data generated by back- translation from a neural machine translation model. On the SQuAD dataset, our single model, trained with augmented data, achieves 84.6 F1 score1 on the test set, which is significantly better than the best published F1 score of 81.8.   
+   
+   
+   
 <li><a href ="https://arxiv.org/pdf/1904.01201v2.pdf">Habitat: A Platform for Embodied AI Research</a></li>
+   
+   
+<img width="1146" alt="image" src="https://user-images.githubusercontent.com/56669333/203586173-8df32b1a-3514-4c9a-92cd-0e9a963a28a7.png">
+   
+   
+<b><code>Abstract:</code></b>We present Habitat, a platform for research in embodied artificial intelligence (AI). Habitat enables training embod- ied agents (virtual robots) in highly efficient photorealistic 3D simulation. Specifically, Habitat consists of:
+(i) Habitat-Sim: a flexible, high-performance 3D sim- ulator with configurable agents, sensors, and generic 3D dataset handling. Habitat-Sim is fast – when rendering a scene from Matterport3D, it achieves several thousand frames per second (fps) running single-threaded, and can reach over 10,000 fps multi-process on a single GPU.(ii) Habitat-API: a modular high-level library for end-to- end development of embodied AI algorithms – defining tasks (e.g. navigation, instruction following, question answering), configuring, training, and benchmarking embodied agents.   
+   
+   
 <li><a href ="https://arxiv.org/pdf/2001.04451v2.pdf">Reformer: The Efficient Transformer</a></li>
+   
+<img width="971" alt="image" src="https://user-images.githubusercontent.com/56669333/203586411-f3c456b4-304b-4ad0-846c-1b5b12b8b4d3.png">
+   
+<b><code>Abstract:</code></b>Large Transformer models routinely achieve state-of-the-art results on a number of tasks but training these models can be prohibitively costly, especially on long sequences. We introduce two techniques to improve the efficiency of Transform- ers. For one, we replace dot-product attention by one that uses locality-sensitive hashing, changing its complexity from O(L2 ) to O(L log L), where L is the length of the sequence. Furthermore, we use reversible residual layers instead of the standard residuals, which allows storing activations only once in the training pro- cess instead of N times, where N is the number of layers. The resulting model, the Reformer, performs on par with Transformer models while being much more memory-efficient and much faster on long sequences.   
+   
 <li><a href ="https://arxiv.org/pdf/1806.03822v1.pdf">Know What You Don't Know: Unanswerable Questions for SQuAD</a></li>
+   
+<img width="1379" alt="image" src="https://user-images.githubusercontent.com/56669333/203586687-d89ecfdf-7302-4b70-aa57-bdd1f7cccb2a.png">
+   
+   
+<b><code>Abstract:</code></b>Extractive reading comprehension sys- tems can often locate the correct answer to a question in a context document, but they also tend to make unreliable guesses on questions for which the correct answer is not stated in the context. Existing datasets either focus exclusively on answerable questions, or use automatically generated unanswerable questions that are easy to identify. To address these weaknesses, we present SQuAD 2.0, the latest version of the Stanford Question Answering Dataset (SQuAD). SQuAD 2.0 combines exist- ing SQuAD data with over 50,000 unan- swerable questions written adversarially by crowdworkers to look similar to an- swerable ones.    
+   
+   
 <li><a href ="https://arxiv.org/pdf/1603.01417v1.pdf">Dynamic Memory Networks for Visual and Textual Question Answering</a></li>
+   
+   
+<img width="1342" alt="image" src="https://user-images.githubusercontent.com/56669333/203586881-37556722-8837-44ea-ac8b-b6a01f8ee1a7.png">
+   
+   
+<b><code>Abstract:</code></b>Neural network architectures with memory and attention mechanisms exhibit certain reason- ing capabilities required for question answering. One such architecture, the dynamic memory net- work (DMN), obtained high accuracy on a vari- ety of language tasks. However, it was not shown whether the architecture achieves strong results for question answering when supporting facts are not marked during training or whether it could be applied to other modalities such as images. Based on an analysis of the DMN, we propose several improvements to its memory and input modules. Together with these changes we intro- duce a novel input module for images in order to be able to answer visual questions. Our new DMN+ model improves the state of the art on both the Visual Question Answering dataset and the bAbI-10k text question-answering dataset without supporting fact supervision.
+   
+   
 <li><a href ="https://arxiv.org/pdf/1611.09268v3.pdf">MS MARCO: A Human Generated MAchine Reading COmprehension Dataset</a></li>
 
+<img width="1042" alt="image" src="https://user-images.githubusercontent.com/56669333/203587092-c87c27f2-ddb7-4843-8d9c-b5f2cbb4aef6.png">
+   
+   
+<b><code>Abstract:</code></bWe introduce a large scale MAchine Reading COmprehension dataset, which we name MS MARCO. The dataset comprises of 1,010,916 anonymized questions— sampled from Bing’s search query logs—each with a human generated answer and 182,669 completely human rewritten generated answers. In addition, the dataset contains 8,841,823 passages—extracted from 3,563,535 web documents retrieved by Bing—that provide the information necessary for curating the natural language answers. A question in the MS MARCO dataset may have multiple answers or no answers at all. Using this dataset, we propose three different tasks with varying levels of difficulty: (i) predict if a question is answerable given a set of context passages, and extract and synthesize the answer as a human would (ii) generate a well-formed answer (if possible) based on the context passages that can be understood with the question and passage context, and finally (iii) rank a set of retrieved passages given a question. The size of the dataset and the fact that the questions are derived from real user search queries distinguishes MS MARCO from other well-known publicly available datasets for machine reading comprehension and question-answering. We believe that the scale and the real-world nature of this dataset makes it attractive for benchmarking machine reading comprehension and question-answering models.   
 
 
 </ol>
