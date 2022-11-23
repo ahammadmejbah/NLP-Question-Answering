@@ -9,8 +9,7 @@
 <li><a href="https://arxiv.org/pdf/1910.10683v3.pdf"> Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer</a></li>
 <li><a href="https://arxiv.org/pdf/1910.13461v1.pdf"> BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension</a></li>
 <li><a href="https://arxiv.org/pdf/1405.4053v2.pdf"> DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter</a></li>
-<li><a href="https://arxiv.org/pdf/1910.01108v4.pdf"> Distributed Representations of Sentences and Documents</a><li>
-
+<li><a href="https://arxiv.org/pdf/1910.01108v4.pdf"> Distributed Representations of Sentences and Documents</a></li>
 <li><a href ="https://arxiv.org/pdf/1611.01603v6.pdf">Bidirectional Attention Flow for Machine Comprehension</a></li> 
 <li><a href ="https://arxiv.org/pdf/1906.08237v2.pdf">XLNet: Generalized Autoregressive Pretraining for Language Understanding</a></li>
 <li><a href ="https://arxiv.org/pdf/1904.00962v5.pdf">Large Batch Optimization for Deep Learning: Training BERT in 76 minutes</a></li>
