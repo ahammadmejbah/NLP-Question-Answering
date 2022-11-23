@@ -36,6 +36,14 @@
    
    
 <li><a href="https://arxiv.org/pdf/1909.11942v6.pdf"> ALBERT: A Lite BERT for Self-supervised Learning of Language Representations</a></li>
+   
+<img width="1220" alt="image" src="https://user-images.githubusercontent.com/56669333/203581152-e7fdd8bd-0db4-49e0-bda2-0093c4358c1c.png">
+   
+   
+<b><code>Abstract:</code></b> Increasing model size when pretraining natural language representations often re- sults in improved performance on downstream tasks. However, at some point fur- ther model increases become harder due to GPU/TPU memory limitations and longer training times. To address these problems, we present two parameter- reduction techniques to lower memory consumption and increase the training speed of BERT (Devlin et al., 2019). Comprehensive empirical evidence shows that our proposed methods lead to models that scale much better compared to the original BERT. We also use a self-supervised loss that focuses on modeling inter-sentence coherence, and show it consistently helps downstream tasks with multi-sentence inputs. As a result, our best model establishes new state-of-the-art results on the GLUE, RACE, and SQuAD benchmarks while having fewer param- eters compared to BERT-large.    
+   
+   
+   
 <li><a href="https://arxiv.org/pdf/1802.05365v2.pdf"> Deep contextualized word representation</a>s</li>
 <li><a href="https://arxiv.org/pdf/1910.10683v3.pdf"> Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer</a></li>
 <li><a href="https://arxiv.org/pdf/1910.13461v1.pdf"> BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension</a></li>
