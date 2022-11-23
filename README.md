@@ -18,6 +18,13 @@
    
    
 <li><a href="https://arxiv.org/pdf/1907.11692v1.pdf"> RoBERTa: A Robustly Optimized BERT Pretraining Approach</a></li>
+   
+<img width="1327" alt="image" src="https://user-images.githubusercontent.com/56669333/203579812-5ff96aa4-1840-46d6-a68a-cfabe644fce0.png">
+   
+   
+<b><code>Abstract:</code></b>Language model pretraining has led to sig- nificant performance gains but careful com- parison between different approaches is chal- lenging. Training is computationally expen- sive, often done on private datasets of different sizes, and, as we will show, hyperparameter choices have significant impact on the final re- sults. We present a replication study of BERT pretraining (Devlin et al., 2019) that carefully measures the impact of many key hyperparam- eters and training data size. We find that BERT was significantly undertrained, and can match or exceed the performance of every model published after it. Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD. These results highlight the impor- tance of previously overlooked design choices, and raise questions about the source of re- cently reported improvements. We release our models and code
+   
+   
 <li><a href="https://arxiv.org/pdf/1503.08895v5.pdf"> End-To-End Memory Networks</a></li>
 <li><a href="https://arxiv.org/pdf/1909.11942v6.pdf"> ALBERT: A Lite BERT for Self-supervised Learning of Language Representations</a></li>
 <li><a href="https://arxiv.org/pdf/1802.05365v2.pdf"> Deep contextualized word representation</a>s</li>
