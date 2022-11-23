@@ -1,6 +1,12 @@
 # NLP-Question-Answering
 <ol>
 <li> <a href="https://arxiv.org/pdf/1810.04805v2.pdf">BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding </a></li>
+    > <b><code>Abstract:</code></b> We introduce a new language representa- tion model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language repre- sentation models (Peters et al., 2018a; Rad- ford et al., 2018), BERT is designed to pre- train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a re- sult, the pre-trained BERT model can be fine- tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task- specific architecture modifications.BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art re- sults on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answer- ing Test F1 to 93.2 (1.5 point absolute im- provement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).
+  
+  
+  
+  
+  
 <li><a href="https://arxiv.org/pdf/1710.10903v3.pdf"> Graph Attention Networks</a></li>
 <li><a href="https://arxiv.org/pdf/1907.11692v1.pdf"> RoBERTa: A Robustly Optimized BERT Pretraining Approach</a></li>
 <li><a href="https://arxiv.org/pdf/1503.08895v5.pdf"> End-To-End Memory Networks</a></li>
